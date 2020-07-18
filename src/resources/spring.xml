@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation=" http://www.springframework.org/schema/beans 
+	http://www.springframework.org/schema/beans/spring-beans.xsd
+	http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+   <!-- <bean class= "com.xworkz.farmer.Farmer" id= "faarmer"></bean>
+   <bean class= "com.xworkz.farmer.Farmer" id= "faarmer1"></bean>
+   <bean class= "com.xworkz.soap.Soap" id= "soap"></bean> -->
+   <bean class= "java.lang.String" id="strings"></bean>
+  <!--   <bean class= "java.lang.Integer" id="integer"></bean> 
+   <bean class="java.lang.Boolean" id="boolean"></bean> -->
+   <bean class="java.util.List" id="list"></bean>
+   <bean class="java.lang.Thread" id="thread"></bean>
+   <bean class="java.util.Map" id="map"></bean>
+   <bean class="java.util.Set" id="set"></bean>
+ </beans>
